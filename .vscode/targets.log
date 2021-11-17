@@ -1,0 +1,956 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Nov 17 08:27:40 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/ruin/RUiN/projects/ml/evosim
+# makefile
+SHELL = /bin/sh
+# environment
+VTE_VERSION = 6003
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:45954
+# makefile (from 'Makefile', line 15)
+CFLAGS = -Wall -fexceptions
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = ruin
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from 'Makefile', line 12)
+WINDRES = windres
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 1783
+# makefile (from 'Makefile', line 36)
+LIBDIR_RELEASE = $(LIBDIR)
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-10354015-e28c-414c-8355-469e5c9aab0d.sock
+# makefile (from 'Makefile', line 32)
+INC_RELEASE = $(INC)
+# environment
+VSCODE_CWD = /home/ruin/RUiN/projects/ml/evosim
+# environment
+CHROME_EXECUTABLE = /usr/bin/brave-browser
+# makefile (from 'Makefile', line 25)
+LIBDIR_DEBUG = $(LIBDIR)
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/ruin/RUiN/apps/miniconda3/bin:/home/ruin/RUiN/apps/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 21)
+INC_DEBUG = $(INC)
+# makefile (from 'Makefile', line 11)
+LD = g++
+# makefile (from 'Makefile', line 35)
+RCFLAGS_RELEASE = $(RCFLAGS)
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# makefile (from 'Makefile', line 27)
+LDFLAGS_DEBUG = $(LDFLAGS) -fopenmp
+# makefile (from 'Makefile', line 16)
+RESINC = 
+# environment
+SESSION_MANAGER = local/ruin:@/tmp/.ICE-unix/2017,unix/ruin:/tmp/.ICE-unix/2017
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 24)
+RCFLAGS_DEBUG = $(RCFLAGS)
+# environment
+CONDA_PREFIX = /home/ruin/RUiN/apps/miniconda3
+# makefile (from 'Makefile', line 10)
+AR = ar
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=a28292f1-972f-424b-93d4-4af3bf7c6bde&iid=a28292f1-972f-424b-93d4-4af3bf7c6bde&sid=a28292f1-972f-424b-93d4-4af3bf7c6bde","uploadToServer":true}
+# environment
+INVOCATION_ID = 53e72a5e09de4d818bfb9e7b70f49623
+# makefile (from 'Makefile', line 19)
+LDFLAGS = -lX11
+# makefile (from 'Makefile', line 18)
+LIB = /usr/lib/x86_64-linux-gnu/libopencv_core.so /usr/lib/x86_64-linux-gnu/libopencv_video.so /usr/lib/x86_64-linux-gnu/libopencv_videoio.so
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 39)
+OBJDIR_RELEASE = obj/Release
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 28)
+OBJDIR_DEBUG = obj/Debug
+# environment
+DISPLAY = :0
+# environment
+CONDA_EXE = /home/ruin/RUiN/apps/miniconda3/bin/conda
+# makefile (from 'Makefile', line 41)
+OUT_RELEASE = bin/Release/biosim4
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/ruin/RUiN/projects/ml/evosim
+# makefile (from 'Makefile', line 45)
+OBJ_RELEASE = $(OBJDIR_RELEASE)/src/signals.o $(OBJDIR_RELEASE)/src/main.o $(OBJDIR_RELEASE)/src/params.o $(OBJDIR_RELEASE)/src/peeps.o $(OBJDIR_RELEASE)/src/random.o $(OBJDIR_RELEASE)/src/simulator.o $(OBJDIR_RELEASE)/src/spawnNewGeneration.o $(OBJDIR_RELEASE)/src/survival-criteria.o $(OBJDIR_RELEASE)/src/unitTestBasicTypes.o $(OBJDIR_RELEASE)/src/unitTestConnectNeuralNetWiringFromGenome.o $(OBJDIR_RELEASE)/src/unitTestGridVisitNeighborhood.o $(OBJDIR_RELEASE)/src/genome-compare.o $(OBJDIR_RELEASE)/src/analysis.o $(OBJDIR_RELEASE)/src/basicTypes.o $(OBJDIR_RELEASE)/src/createBarrier.o $(OBJDIR_RELEASE)/src/endOfGeneration.o $(OBJDIR_RELEASE)/src/endOfSimStep.o $(OBJDIR_RELEASE)/src/executeActions.o $(OBJDIR_RELEASE)/src/feedForward.o $(OBJDIR_RELEASE)/src/genome.o $(OBJDIR_RELEASE)/src/getSensor.o $(OBJDIR_RELEASE)/src/grid.o $(OBJDIR_RELEASE)/src/imageWriter.o $(OBJDIR_RELEASE)/src/indiv.o
+# makefile (from 'Makefile', line 30)
+OUT_DEBUG = bin/Debug/biosim4
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1968
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/ruin
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/ruin/.config/Code/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316
+# environment
+LOGNAME = ruin
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 8)
+CC = gcc
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = ruin
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# makefile (from 'Makefile', line 33)
+CFLAGS_RELEASE = $(CFLAGS) -O3
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 22)
+CFLAGS_DEBUG = $(CFLAGS) -g -fopenmp
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 14)
+INC = -I/usr/include/opencv4
+# makefile (from 'Makefile', line 17)
+LIBDIR = 
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_IN:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-eacacf4a-1.62.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/ruin/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 40)
+DEP_RELEASE = 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 34)
+RESINC_RELEASE = $(RESINC)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 29)
+DEP_DEBUG = 
+# makefile (from 'Makefile', line 9)
+CXX = g++
+# makefile (from 'Makefile', line 6)
+WORKDIR = `pwd`
+# makefile (from 'Makefile', line 23)
+RESINC_DEBUG = $(RESINC)
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/ruin/RUiN/apps/miniconda3/bin/python
+# makefile (from 'Makefile', line 38)
+LDFLAGS_RELEASE = $(LDFLAGS) -O3 -s
+# makefile (from 'Makefile', line 26)
+LIB_DEBUG = $(LIB)
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/55aac804_1899_4a37_8357_859e3e65569a
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 37)
+LIB_RELEASE = $(LIB)
+# environment
+GNOME_TERMINAL_SERVICE = :1.113
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 43)
+OBJ_DEBUG = $(OBJDIR_DEBUG)/src/signals.o $(OBJDIR_DEBUG)/src/main.o $(OBJDIR_DEBUG)/src/params.o $(OBJDIR_DEBUG)/src/peeps.o $(OBJDIR_DEBUG)/src/random.o $(OBJDIR_DEBUG)/src/simulator.o $(OBJDIR_DEBUG)/src/spawnNewGeneration.o $(OBJDIR_DEBUG)/src/survival-criteria.o $(OBJDIR_DEBUG)/src/unitTestBasicTypes.o $(OBJDIR_DEBUG)/src/unitTestConnectNeuralNetWiringFromGenome.o $(OBJDIR_DEBUG)/src/unitTestGridVisitNeighborhood.o $(OBJDIR_DEBUG)/src/genome-compare.o $(OBJDIR_DEBUG)/src/analysis.o $(OBJDIR_DEBUG)/src/basicTypes.o $(OBJDIR_DEBUG)/src/createBarrier.o $(OBJDIR_DEBUG)/src/endOfGeneration.o $(OBJDIR_DEBUG)/src/endOfSimStep.o $(OBJDIR_DEBUG)/src/executeActions.o $(OBJDIR_DEBUG)/src/feedForward.o $(OBJDIR_DEBUG)/src/genome.o $(OBJDIR_DEBUG)/src/getSensor.o $(OBJDIR_DEBUG)/src/grid.o $(OBJDIR_DEBUG)/src/imageWriter.o $(OBJDIR_DEBUG)/src/indiv.o
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 4308
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=145/1024=14%, Rehash=0, Collisions=20/275=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64768, inode 20464118): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+obj/Release/src/genome-compare.o: src/genome-compare.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 184):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/genome-compare.cpp -o $(OBJDIR_RELEASE)/src/genome-compare.o
+
+obj/Release/src/random.o: src/random.cpp
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 163):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/random.cpp -o $(OBJDIR_RELEASE)/src/random.o
+
+# Not a target:
+src/signals.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+out_debug: before_debug obj/Debug/src/signals.o obj/Debug/src/main.o obj/Debug/src/params.o obj/Debug/src/peeps.o obj/Debug/src/random.o obj/Debug/src/simulator.o obj/Debug/src/spawnNewGeneration.o obj/Debug/src/survival-criteria.o obj/Debug/src/unitTestBasicTypes.o obj/Debug/src/unitTestConnectNeuralNetWiringFromGenome.o obj/Debug/src/unitTestGridVisitNeighborhood.o obj/Debug/src/genome-compare.o obj/Debug/src/analysis.o obj/Debug/src/basicTypes.o obj/Debug/src/createBarrier.o obj/Debug/src/endOfGeneration.o obj/Debug/src/endOfSimStep.o obj/Debug/src/executeActions.o obj/Debug/src/feedForward.o obj/Debug/src/genome.o obj/Debug/src/getSensor.o obj/Debug/src/grid.o obj/Debug/src/imageWriter.o obj/Debug/src/indiv.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	$(LD) $(LIBDIR_DEBUG) -o $(OUT_DEBUG) $(OBJ_DEBUG)  $(LDFLAGS_DEBUG) $(LIB_DEBUG)
+
+obj/Release/src/feedForward.o: src/feedForward.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 205):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/feedForward.cpp -o $(OBJDIR_RELEASE)/src/feedForward.o
+
+all: debug release
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+obj/Debug/src/executeActions.o: src/executeActions.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 114):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/executeActions.cpp -o $(OBJDIR_DEBUG)/src/executeActions.o
+
+obj/Debug/src/grid.o: src/grid.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 126):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/grid.cpp -o $(OBJDIR_DEBUG)/src/grid.o
+
+obj/Debug/src/survival-criteria.o: src/survival-criteria.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 84):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/survival-criteria.cpp -o $(OBJDIR_DEBUG)/src/survival-criteria.o
+
+.PHONY: before_debug after_debug clean_debug before_release after_release clean_release
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/genome-compare.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/random.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Release/src/unitTestConnectNeuralNetWiringFromGenome.o: src/unitTestConnectNeuralNetWiringFromGenome.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 178):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/unitTestConnectNeuralNetWiringFromGenome.cpp -o $(OBJDIR_RELEASE)/src/unitTestConnectNeuralNetWiringFromGenome.o
+
+before_debug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := before_debug
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/13=23%
+#  recipe to execute (from 'Makefile', line 52):
+	test -d bin/Debug || mkdir -p bin/Debug
+	test -d $(OBJDIR_DEBUG)/src || mkdir -p $(OBJDIR_DEBUG)/src
+
+# Not a target:
+src/feedForward.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Release/src/endOfSimStep.o: src/endOfSimStep.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 199):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/endOfSimStep.cpp -o $(OBJDIR_RELEASE)/src/endOfSimStep.o
+
+# Not a target:
+src/unitTestConnectNeuralNetWiringFromGenome.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Debug/src/signals.o: src/signals.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/signals.cpp -o $(OBJDIR_DEBUG)/src/signals.o
+
+out_release: before_release obj/Release/src/signals.o obj/Release/src/main.o obj/Release/src/params.o obj/Release/src/peeps.o obj/Release/src/random.o obj/Release/src/simulator.o obj/Release/src/spawnNewGeneration.o obj/Release/src/survival-criteria.o obj/Release/src/unitTestBasicTypes.o obj/Release/src/unitTestConnectNeuralNetWiringFromGenome.o obj/Release/src/unitTestGridVisitNeighborhood.o obj/Release/src/genome-compare.o obj/Release/src/analysis.o obj/Release/src/basicTypes.o obj/Release/src/createBarrier.o obj/Release/src/endOfGeneration.o obj/Release/src/endOfSimStep.o obj/Release/src/executeActions.o obj/Release/src/feedForward.o obj/Release/src/genome.o obj/Release/src/getSensor.o obj/Release/src/grid.o obj/Release/src/imageWriter.o obj/Release/src/indiv.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 148):
+	$(LD) $(LIBDIR_RELEASE) -o $(OUT_RELEASE) $(OBJ_RELEASE)  $(LDFLAGS_RELEASE) $(LIB_RELEASE)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-17 08:26:50.118313943
+#  File has been updated.
+#  Successfully updated.
+
+debug: before_debug out_debug after_debug
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+obj/Debug/src/genome-compare.o: src/genome-compare.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 96):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/genome-compare.cpp -o $(OBJDIR_DEBUG)/src/genome-compare.o
+
+obj/Debug/src/random.o: src/random.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/random.cpp -o $(OBJDIR_DEBUG)/src/random.o
+
+obj/Release/src/basicTypes.o: src/basicTypes.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 190):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/basicTypes.cpp -o $(OBJDIR_RELEASE)/src/basicTypes.o
+
+before_release:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 140):
+	test -d bin/Release || mkdir -p bin/Release
+	test -d $(OBJDIR_RELEASE)/src || mkdir -p $(OBJDIR_RELEASE)/src
+
+obj/Release/src/simulator.o: src/simulator.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 166):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/simulator.cpp -o $(OBJDIR_RELEASE)/src/simulator.o
+
+clean_debug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 135):
+	rm -f $(OBJ_DEBUG) $(OUT_DEBUG)
+	rm -rf bin/Debug
+	rm -rf $(OBJDIR_DEBUG)/src
+
+obj/Debug/src/feedForward.o: src/feedForward.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 117):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/feedForward.cpp -o $(OBJDIR_DEBUG)/src/feedForward.o
+
+obj/Release/src/getSensor.o: src/getSensor.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 211):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/getSensor.cpp -o $(OBJDIR_RELEASE)/src/getSensor.o
+
+obj/Debug/src/unitTestConnectNeuralNetWiringFromGenome.o: src/unitTestConnectNeuralNetWiringFromGenome.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/unitTestConnectNeuralNetWiringFromGenome.cpp -o $(OBJDIR_DEBUG)/src/unitTestConnectNeuralNetWiringFromGenome.o
+
+obj/Release/src/genome.o: src/genome.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 208):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/genome.cpp -o $(OBJDIR_RELEASE)/src/genome.o
+
+# Not a target:
+src/basicTypes.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/simulator.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+after_debug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+obj/Release/src/spawnNewGeneration.o: src/spawnNewGeneration.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 169):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/spawnNewGeneration.cpp -o $(OBJDIR_RELEASE)/src/spawnNewGeneration.o
+
+# Not a target:
+src/getSensor.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Debug/src/endOfSimStep.o: src/endOfSimStep.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 111):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/endOfSimStep.cpp -o $(OBJDIR_DEBUG)/src/endOfSimStep.o
+
+obj/Release/src/analysis.o: src/analysis.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 187):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/analysis.cpp -o $(OBJDIR_RELEASE)/src/analysis.o
+
+# Not a target:
+src/genome.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_release:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 223):
+	rm -f $(OBJ_RELEASE) $(OUT_RELEASE)
+	rm -rf bin/Release
+	rm -rf $(OBJDIR_RELEASE)/src
+
+# Not a target:
+src/spawnNewGeneration.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Release/src/unitTestGridVisitNeighborhood.o: src/unitTestGridVisitNeighborhood.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 181):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/unitTestGridVisitNeighborhood.cpp -o $(OBJDIR_RELEASE)/src/unitTestGridVisitNeighborhood.o
+
+obj/Release/src/endOfGeneration.o: src/endOfGeneration.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 196):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/endOfGeneration.cpp -o $(OBJDIR_RELEASE)/src/endOfGeneration.o
+
+release: before_release out_release after_release
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/analysis.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Release/src/peeps.o: src/peeps.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 160):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/peeps.cpp -o $(OBJDIR_RELEASE)/src/peeps.o
+
+obj/Release/src/createBarrier.o: src/createBarrier.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 193):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/createBarrier.cpp -o $(OBJDIR_RELEASE)/src/createBarrier.o
+
+obj/Debug/src/basicTypes.o: src/basicTypes.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 102):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/basicTypes.cpp -o $(OBJDIR_DEBUG)/src/basicTypes.o
+
+obj/Release/src/imageWriter.o: src/imageWriter.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/imageWriter.cpp -o $(OBJDIR_RELEASE)/src/imageWriter.o
+
+obj/Debug/src/simulator.o: src/simulator.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 78):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/simulator.cpp -o $(OBJDIR_DEBUG)/src/simulator.o
+
+after_release:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+obj/Release/src/params.o: src/params.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 157):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/params.cpp -o $(OBJDIR_RELEASE)/src/params.o
+
+obj/Debug/src/getSensor.o: src/getSensor.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 123):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/getSensor.cpp -o $(OBJDIR_DEBUG)/src/getSensor.o
+
+# Not a target:
+src/unitTestGridVisitNeighborhood.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Release/src/unitTestBasicTypes.o: src/unitTestBasicTypes.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 175):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/unitTestBasicTypes.cpp -o $(OBJDIR_RELEASE)/src/unitTestBasicTypes.o
+
+# Not a target:
+src/endOfGeneration.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean: clean_debug clean_release
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Debug/src/genome.o: src/genome.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 120):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/genome.cpp -o $(OBJDIR_DEBUG)/src/genome.o
+
+# Not a target:
+src/createBarrier.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/imageWriter.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Release/src/indiv.o: src/indiv.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 220):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/indiv.cpp -o $(OBJDIR_RELEASE)/src/indiv.o
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/params.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Debug/src/spawnNewGeneration.o: src/spawnNewGeneration.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/spawnNewGeneration.cpp -o $(OBJDIR_DEBUG)/src/spawnNewGeneration.o
+
+# Not a target:
+src/endOfSimStep.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/unitTestBasicTypes.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Debug/src/analysis.o: src/analysis.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 99):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/analysis.cpp -o $(OBJDIR_DEBUG)/src/analysis.o
+
+# Not a target:
+src/indiv.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Release/src/main.o: src/main.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 154):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/main.cpp -o $(OBJDIR_RELEASE)/src/main.o
+
+obj/Release/src/executeActions.o: src/executeActions.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 202):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/executeActions.cpp -o $(OBJDIR_RELEASE)/src/executeActions.o
+
+obj/Release/src/grid.o: src/grid.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/grid.cpp -o $(OBJDIR_RELEASE)/src/grid.o
+
+obj/Debug/src/unitTestGridVisitNeighborhood.o: src/unitTestGridVisitNeighborhood.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 93):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/unitTestGridVisitNeighborhood.cpp -o $(OBJDIR_DEBUG)/src/unitTestGridVisitNeighborhood.o
+
+obj/Debug/src/endOfGeneration.o: src/endOfGeneration.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 108):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/endOfGeneration.cpp -o $(OBJDIR_DEBUG)/src/endOfGeneration.o
+
+obj/Release/src/survival-criteria.o: src/survival-criteria.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 172):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/survival-criteria.cpp -o $(OBJDIR_RELEASE)/src/survival-criteria.o
+
+obj/Debug/src/peeps.o: src/peeps.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/peeps.cpp -o $(OBJDIR_DEBUG)/src/peeps.o
+
+obj/Debug/src/createBarrier.o: src/createBarrier.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 105):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/createBarrier.cpp -o $(OBJDIR_DEBUG)/src/createBarrier.o
+
+obj/Debug/src/imageWriter.o: src/imageWriter.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 129):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/imageWriter.cpp -o $(OBJDIR_DEBUG)/src/imageWriter.o
+
+obj/Debug/src/main.o: src/main.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/main.cpp -o $(OBJDIR_DEBUG)/src/main.o
+
+obj/Debug/src/params.o: src/params.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/params.cpp -o $(OBJDIR_DEBUG)/src/params.o
+
+# Not a target:
+src/executeActions.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/grid.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Debug/src/unitTestBasicTypes.o: src/unitTestBasicTypes.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 87):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/unitTestBasicTypes.cpp -o $(OBJDIR_DEBUG)/src/unitTestBasicTypes.o
+
+# Not a target:
+src/peeps.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/survival-criteria.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/Release/src/signals.o: src/signals.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 151):
+	$(CXX) $(CFLAGS_RELEASE) $(INC_RELEASE) -c src/signals.cpp -o $(OBJDIR_RELEASE)/src/signals.o
+
+obj/Debug/src/indiv.o: src/indiv.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 132):
+	$(CXX) $(CFLAGS_DEBUG) $(INC_DEBUG) -c src/indiv.cpp -o $(OBJDIR_DEBUG)/src/indiv.o
+
+# files hash-table stats:
+# Load=88/1024=9%, Rehash=0, Collisions=10/268=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 101 / storage = 2213 B / avg = 21 B
+# current buf: size = 8162 B / used = 2213 B / count = 101 / avg = 21 B
+
+# strcache performance: lookups = 258 / hit rate = 60%
+# hash-table stats:
+# Load=101/8192=1%, Rehash=0, Collisions=8/258=3%
+# Finished Make data base on Wed Nov 17 08:27:40 2021
+
+ 

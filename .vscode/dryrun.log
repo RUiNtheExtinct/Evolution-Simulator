@@ -1,0 +1,36 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/ruin/RUiN/projects/ml/evosim'
+test -d bin/Debug || mkdir -p bin/Debug
+test -d obj/Debug/src || mkdir -p obj/Debug/src
+g++ -Wall -fexceptions -g -fopenmp -I/usr/include/opencv4 -c src/imageWriter.cpp -o obj/Debug/src/imageWriter.o
+g++ -Wall -fexceptions -g -fopenmp -I/usr/include/opencv4 -c src/indiv.cpp -o obj/Debug/src/indiv.o
+g++  -o bin/Debug/biosim4 obj/Debug/src/signals.o obj/Debug/src/main.o obj/Debug/src/params.o obj/Debug/src/peeps.o obj/Debug/src/random.o obj/Debug/src/simulator.o obj/Debug/src/spawnNewGeneration.o obj/Debug/src/survival-criteria.o obj/Debug/src/unitTestBasicTypes.o obj/Debug/src/unitTestConnectNeuralNetWiringFromGenome.o obj/Debug/src/unitTestGridVisitNeighborhood.o obj/Debug/src/genome-compare.o obj/Debug/src/analysis.o obj/Debug/src/basicTypes.o obj/Debug/src/createBarrier.o obj/Debug/src/endOfGeneration.o obj/Debug/src/endOfSimStep.o obj/Debug/src/executeActions.o obj/Debug/src/feedForward.o obj/Debug/src/genome.o obj/Debug/src/getSensor.o obj/Debug/src/grid.o obj/Debug/src/imageWriter.o obj/Debug/src/indiv.o  -lX11 -fopenmp /usr/lib/x86_64-linux-gnu/libopencv_core.so /usr/lib/x86_64-linux-gnu/libopencv_video.so /usr/lib/x86_64-linux-gnu/libopencv_videoio.so
+test -d bin/Release || mkdir -p bin/Release
+test -d obj/Release/src || mkdir -p obj/Release/src
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/signals.cpp -o obj/Release/src/signals.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/main.cpp -o obj/Release/src/main.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/params.cpp -o obj/Release/src/params.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/peeps.cpp -o obj/Release/src/peeps.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/random.cpp -o obj/Release/src/random.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/simulator.cpp -o obj/Release/src/simulator.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/spawnNewGeneration.cpp -o obj/Release/src/spawnNewGeneration.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/survival-criteria.cpp -o obj/Release/src/survival-criteria.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/unitTestBasicTypes.cpp -o obj/Release/src/unitTestBasicTypes.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/unitTestConnectNeuralNetWiringFromGenome.cpp -o obj/Release/src/unitTestConnectNeuralNetWiringFromGenome.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/unitTestGridVisitNeighborhood.cpp -o obj/Release/src/unitTestGridVisitNeighborhood.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/genome-compare.cpp -o obj/Release/src/genome-compare.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/analysis.cpp -o obj/Release/src/analysis.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/basicTypes.cpp -o obj/Release/src/basicTypes.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/createBarrier.cpp -o obj/Release/src/createBarrier.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/endOfGeneration.cpp -o obj/Release/src/endOfGeneration.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/endOfSimStep.cpp -o obj/Release/src/endOfSimStep.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/executeActions.cpp -o obj/Release/src/executeActions.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/feedForward.cpp -o obj/Release/src/feedForward.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/genome.cpp -o obj/Release/src/genome.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/getSensor.cpp -o obj/Release/src/getSensor.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/grid.cpp -o obj/Release/src/grid.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/imageWriter.cpp -o obj/Release/src/imageWriter.o
+g++ -Wall -fexceptions -O3 -I/usr/include/opencv4 -c src/indiv.cpp -o obj/Release/src/indiv.o
+g++  -o bin/Release/biosim4 obj/Release/src/signals.o obj/Release/src/main.o obj/Release/src/params.o obj/Release/src/peeps.o obj/Release/src/random.o obj/Release/src/simulator.o obj/Release/src/spawnNewGeneration.o obj/Release/src/survival-criteria.o obj/Release/src/unitTestBasicTypes.o obj/Release/src/unitTestConnectNeuralNetWiringFromGenome.o obj/Release/src/unitTestGridVisitNeighborhood.o obj/Release/src/genome-compare.o obj/Release/src/analysis.o obj/Release/src/basicTypes.o obj/Release/src/createBarrier.o obj/Release/src/endOfGeneration.o obj/Release/src/endOfSimStep.o obj/Release/src/executeActions.o obj/Release/src/feedForward.o obj/Release/src/genome.o obj/Release/src/getSensor.o obj/Release/src/grid.o obj/Release/src/imageWriter.o obj/Release/src/indiv.o  -lX11 -O3 -s /usr/lib/x86_64-linux-gnu/libopencv_core.so /usr/lib/x86_64-linux-gnu/libopencv_video.so /usr/lib/x86_64-linux-gnu/libopencv_videoio.so
+make: Leaving directory '/home/ruin/RUiN/projects/ml/evosim'
+ 
